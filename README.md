@@ -914,7 +914,7 @@ The final demonstration covers:
 Add the final Google Drive link below after uploading the video:
 
 ```text
-PASTE_YOUR_GOOGLE_DRIVE_DEMO_LINK_HERE
+(https://drive.google.com/file/d/1Vp8FiJjTnLgiumu4sLDKg9nmgSnxYpVf/view?usp=sharing)
 ```
 
 Make sure the Google Drive sharing permission allows the evaluator to view the video.
