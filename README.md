@@ -892,34 +892,24 @@ Critical quality decisions should always be reviewed by the appropriate human qu
 
 ---
 
-# Demo Video
+## Demo Video
 
-The final demonstration covers:
+Watch the complete AIVOA Complaint Management System demonstration:
 
-1. Text complaint intake
-2. AI complaint extraction
-3. Structured complaint form population
-4. AI risk assessment
-5. Completeness checking
-6. Copilot correction
-7. PDF complaint upload
-8. Additional AI recommendations
-9. QMS commitment
-10. Audit timeline
-11. End-to-end architecture
-12. Code walkthrough
+**[▶️ Watch AIVOA Demo Video](https://drive.google.com/file/d/1Vp8FijTnlGiumu4sLDKg9mmSrxYpVf/view?usp=sharing)**
 
-## Demo Video Link
+The demo covers:
 
-Add the final Google Drive link below after uploading the video:
-
-```text
-(https://drive.google.com/file/d/1Vp8FiJjTnLgiumu4sLDKg9nmgSnxYpVf/view?usp=sharing)
-```
-
-Make sure the Google Drive sharing permission allows the evaluator to view the video.
-
----
+- Text complaint intake
+- AI complaint extraction
+- Structured complaint form population
+- AI risk assessment
+- Copilot correction
+- PDF complaint upload
+- Completeness and AI recommendation features
+- QMS ledger commitment
+- Audit timeline
+- Architecture and code walkthrough
 
 # Documentation
 
