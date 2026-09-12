@@ -1,0 +1,12 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-multipart==0.0.20
+pydantic==2.11.3
+pydantic-settings==2.8.1
+SQLAlchemy==2.0.40
+psycopg2-binary==2.9.10
+pypdf==5.4.0
+langgraph==0.3.34
+groq==0.23.1
+python-dotenv==1.1.0
+python-docx==1.1.2

@@ -1,0 +1,11 @@
+Complaint Source: Email
+Customer: ABC Formulations Ltd.
+Product: Metformin Hydrochloride API
+Product Strength: IP/BP Grade
+Batch Number: CHG260712A
+Affected Quantity: 50 kg (2 HDPE Drum)
+Manufacturing Date: 2026-07-12
+Expiry Date: 2028-07-11
+Complaint Date: 2026-08-03
+Complaint Type: Foreign Matter Contamination
+Detailed complaint: ABC Formulations reported multiple dark foreign particles inside a sealed HDPE drum during incoming quality inspection. Material was quarantined pending QA investigation.

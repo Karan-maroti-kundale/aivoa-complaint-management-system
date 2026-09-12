@@ -1,0 +1,39 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: aivoa
+      POSTGRES_USER: aivoa
+      POSTGRES_PASSWORD: aivoa
+    ports:
+      - "5432:5432"
+    volumes:
+      - aivoa_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aivoa -d aivoa"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql+psycopg2://aivoa:aivoa@db:5432/aivoa
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      AIVOA_GROQ_MODEL: ${AIVOA_GROQ_MODEL:-gemma2-9b-it}
+      CORS_ORIGINS: http://localhost:5173,http://localhost
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  aivoa_pgdata:

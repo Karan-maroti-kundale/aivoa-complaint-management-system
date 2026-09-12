@@ -1,0 +1,11 @@
+Complaint Source: Email
+Customer: Apollo Pharmacy
+Product: Amoxicillin Capsules
+Product Strength: 500 mg
+Batch Number: AMX240602
+Affected Quantity: 48 capsules
+Manufacturing Date: 2026-03-01
+Expiry Date: 2028-02-28
+Complaint Date: 2026-06-15
+Complaint Type: Discoloration
+Detailed complaint: Apollo Pharmacy reported discolored capsules in Amoxicillin Capsules 500 mg. The affected pack was isolated and the customer requested investigation.
